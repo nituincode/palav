@@ -29,17 +29,6 @@ def scroll_to_bottom():
     )
 
 st.set_page_config(page_title="Breastfeeding Manual Chatbot", layout="centered")
-# removing the side bar from UI
-st.markdown(
-    """
-    <style>
-    [data-testid="stSidebar"] {
-        display: none;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 st.title("Palav Breastfeeding Userguide ")
 
 # --- CONFIG ---
